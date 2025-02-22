@@ -154,7 +154,8 @@ h6 {
 .index-page.scrolled .header {
   --background-color: rgba(40, 58, 90, 0.9);
 }
-.index-page.scrolled .header .navmenu a,.index-page.scrolled .header .logo h1 {
+/* .index-page.scrolled .header .navmenu a, */
+.index-page.scrolled .header .logo h1 {
 color:#ffffff
 }
 /*--------------------------------------------------------------
@@ -325,6 +326,10 @@ color:#ffffff
     margin-right: 10px;
     cursor: pointer;
     transition: color 0.3s;
+  }
+
+  .scrolled .mobile-nav-toggle {
+    color: #ffffff;
   }
 
   .navmenu {
